@@ -1,5 +1,5 @@
 import model.Product;
-
+import interfaces.ProductLabelChecker;
 import java.util.List;
 
 public class zadanie9 {
@@ -18,7 +18,7 @@ public class zadanie9 {
                 productChecker.checkLabel(product);
             }
 
-//        sampleProductList.forEach();
+        //sampleProductList.forEach();
         }
 }
 

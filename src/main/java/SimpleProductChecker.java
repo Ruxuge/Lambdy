@@ -1,7 +1,6 @@
 
 import model.Product;
-
-public class zadanie10 {
+import interfaces.ProductLabelChecker;
 
     public class SimpleProductChecker implements ProductLabelChecker {
 
@@ -12,4 +11,3 @@ public class zadanie10 {
             }
         }
     }
-}
